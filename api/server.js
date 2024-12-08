@@ -2,14 +2,6 @@ const express = require('express');
 const { igdl  } = require('btch-downloader');
 const cors = require('cors');
 
-// const corsOptions = {
-//   origin: '*', // Allow all origins
-//   methods: ['GET', 'POST'], // Allowed HTTP methods
-// };
-
-
-
-
 const app = express();
 app.use(cors());
 // app.use(cors(corsOptions));
