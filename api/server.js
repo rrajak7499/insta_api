@@ -11,8 +11,7 @@ const port = 5000;
 app.get('/download', async (req, res) => {
   console.log('server running backend')
   const url = req.query.url; // Get the URL from the query string
-// const url = 'https://www.instagram.com/p/DDHoxHtoE33/?utm_source=ig_web_copy_link';
-
+  
   if (!url) {
     return res.status(400).send({ error: "URL is required" });
   }

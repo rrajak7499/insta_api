@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "npm install cheerio",
-    "start": "node server.js"
+    "start": "node ./api/server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,8 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": "^22.11.0"
   }
 }
